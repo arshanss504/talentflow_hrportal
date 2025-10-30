@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-gray-50 text-gray-800; }
+.container { @apply max-w-6xl mx-auto p-4; }
+.nav { @apply bg-white shadow p-4 rounded mb-4 flex items-center justify-between; }
+.card { @apply bg-white shadow rounded p-4; }
+.button { @apply px-3 py-1 rounded bg-indigo-600 text-white hover:bg-indigo-700; }
+.input { @apply border rounded px-2 py-1; }
+.small { @apply text-sm text-gray-600; }
